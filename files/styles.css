@@ -1,0 +1,94 @@
+/* styles.css */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004988; /* Blue color */
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #004988; /* Blue color */
+    border-bottom: 2px solid #004988; /* Blue color */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+    color: #004988; /* Blue color */
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    margin-bottom: 5px;
+    color: #004988; /* Blue color */
+}
+
+footer {
+    background-color: #FFCD00; /* Gold color */
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #333;
+}
+
+footer a {
+    color: #004988; /* Blue color */
+    text-decoration: none;
+}
